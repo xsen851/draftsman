@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Рисовальщик</string>
+    <string name="app_in_name">рисовальщик</string>
+    <string name="app_name2">Главная страница</string>
+    <string name="btnSignIn">Войти</string>
+    <string name="btnRegister">Зарегистрироваться</string>
+    <string name="text_bottom2">Войдите в свою учётную запись:)</string>
+    <string name="login">Войти</string>
+    <string name="password">Ведите пароль</string>
+    <string name="vxod">Войти</string>
+    <string name="reg">Зарегистрироваться</string>
+    <string name="username">Имя</string>
+    <string name="pass">Пароль</string>
+    <string name="paintView"> </string>
+    <string name="item1"> </string>
+    <string name="Rview"> </string>
+    <string name="vxod_odin">Войти</string>
+    <string name="registerr">Повторите пароль</string>
+    <string name="action_settings">Settings</string>
+    <string name="not_registered">Не зарегистрированы?</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="confirm_password">Повторите пароль</string>
+    <string name="already_registered">Уже зарегистрированы?</string>
+    <string name="ok">Начать </string>
+    <string name="save">Сохранить</string>
+    <string name="btn_saves">Рисунки</string>
+</resources>

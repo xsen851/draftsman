@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/vxod"
+    >
+    
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/vxod"
+    android:text="название изображения"
+    android:id="@+id/sr_imageDetailsTV"
+    >
+</TextView>
+
+    <ImageView
+        android:id="@+id/sr_imageIV"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/sr_imageDetailsTV"
+        android:src="@drawable/open"
+        android:layout_marginTop="20dp"
+        >
+    </ImageView>
+    
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vxod"
+    tools:context=".ImageActivity">
+
+    <EditText
+        android:id="@+id/nameImageET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="25"
+        android:textColor="@color/black"
+        >
+    </EditText>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/nameImageET"
+        android:layout_marginTop="20dp"
+        android:onClick="chooseImage"
+        android:src="@drawable/open"
+
+        ></ImageView>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_marginTop="40dp"
+        android:background="@color/purple_700"
+        android:onClick="storeImage"
+        android:text="@string/save"
+        android:textColor="@color/color_white"></Button>
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Просмотреть данные о сохраненных рисунках"
+        android:textColor="@color/color_white"></Button>
+
+    
+</RelativeLayout>
